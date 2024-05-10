@@ -6,7 +6,8 @@ export default function Splash() {
   const navigation = useNavigation();
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('ParentRegister');
+      // navigation.navigate('ParentRegister');
+      navigation.navigate('TempPasscode');
     }, 3000);
   }, []);
   return (
