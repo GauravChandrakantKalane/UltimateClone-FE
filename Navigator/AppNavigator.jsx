@@ -7,6 +7,8 @@ import Landing from '../screens/Landing';
 import Home from '../screens/Home';
 import DrawerNavigator from './DrawerNavigator';
 import ParentRegister from '../screens/ParentRegister';
+// import TempPasscode from 'UltimateClone-FE\screens\TempPasscode.jsx'
+import TempPasscode from "../screens/TempPasscode"
 
 const AppNavigator = () => {
   const Stack = createNativeStackNavigator();
@@ -26,7 +28,13 @@ const AppNavigator = () => {
           name="Landing"
           component={Landing}
           options={{headerShown: false}}></Stack.Screen>
+        <Stack.Screen
+          name="TempPasscode"
+          component={TempPasscode}
+          options={{headerShown: false}}></Stack.Screen>  
       </Stack.Navigator>
+        
+
     </NavigationContainer>
   );
 };
