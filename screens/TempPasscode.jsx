@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     fontWeight: '850', 
     lineHeight: 40,   
     textAlign: 'left',
-    color: '#000000',
+    color: '#222222',
     marginBottom: 0,
   },
   registerContent: {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   },
   registerPasscode:{
     fontFamily :'Poppins-SemiBold',
-    color: '#000000',
+    color: '#222222',
     fontSize: 14, 
     lineHeight: 22, 
     textAlign: 'left',
